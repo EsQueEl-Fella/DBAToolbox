@@ -46,9 +46,9 @@ You need to have
 ## (Almost) ready to roll ?!
 
 Well, after installation everything is going to work as expected / intended on your LOCAL server. The (almost) part is only referring to the situation in which you want to execute the stored procedures against REMOTE servers. To be able to do that,
-    1. first you need to create and configure some SQL Linked Servers. 
-    2. Then sort out any permission related issues regarding the Linked Server connectivity. 
-    3. You may also need to do some MSDTC related troubleshooting to get things working properly, as MSDTC, which is playing a central role when Linked Servers are on the menu, is not a nice and easy fellow. MSDTC needs to be configured on the remote server, service must run and also accept connections. This all may end up sometimes in really ugly situations which will give you really hard times.
+- first you need to create and configure some SQL Linked Servers. 
+- Then sort out any permission related issues regarding the Linked Server connectivity. 
+- You may also need to do some MSDTC related troubleshooting to get things working properly, as MSDTC, which is playing a central role when Linked Servers are on the menu, is not a nice and easy fellow. MSDTC needs to be configured on the remote server, service must run and also accept connections. This all may end up sometimes in really ugly situations which will give you really hard times.
 
 If you prefer not to go the Linked Server way for any reason you can backup your new shiny DBAToolbox and restore it on the remote server. This of course wasn't my initial intention when I came up with the idea of making the DBAToolbox, but if you like it this way or if it is not working the other way, then be my guest.
 
