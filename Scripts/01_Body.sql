@@ -56,7 +56,7 @@ GO
 
 --****[Change Values If you Prefer]*********************************************  
 DECLARE @DatabaseName NVARCHAR (255) = 'DBAToolbox'
-DECLARE @DatabasePath NVARCHAR (255) = 'C:\Projects\Database\Local\'
+DECLARE @DatabasePath NVARCHAR (255) = '/var/opt/mssql/'
 --******************************************************************************  
 
 
