@@ -16,10 +16,12 @@ do
   echo executing $entry
   /opt/mssql-tools/bin/sqlcmd -b -S 0.0.0.0 -U SA -P $password -i $entry
   if [ $? -eq 0 ]; then
-    echo "Done."
+    echo "Done with $entry."
   else
     /opt/mssql-tools/bin/sqlcmd -S 0.0.0.0 -U SA -P $password -q "SHUTDOWN WITH NOWAIT"
     echo "Failed with $entry"
     exit 1
   fi
 done
+
+echo "All done! All tests have succeeded!"
