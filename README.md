@@ -70,7 +70,7 @@ Before any contributions, it's recommended to run tests using:
 ```
 docker-compose run tests
 ```
-This will apply the SQL to a docker-contained SQL parameters and thus check for any syntax errors.
+This will apply the SQL to a docker-contained MSSQL and thus check for any syntax errors.
 
 ### Break down into end to end tests
 
