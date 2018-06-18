@@ -66,6 +66,12 @@ And anyway, production environment is NOT there for you to play or experiment wi
 
 Learn each tool and its usage and outcome, and when you know what it does, start to use each one for your daily tasks. I have tried my best to provide as much as possible documentation and helpful comments and so on. Check the Help for each SP, read the important remarks. Review the authors' comments. Open the SP for modification and look at the code. Review the messages which get printed out.
 
+Before any contributions, it's recommended to run tests using:
+```
+docker-compose run tests
+```
+This will apply the SQL to a docker-contained MSSQL and thus check for any syntax errors.
+
 ### Break down into end to end tests
 
 There are many tools in the collection. In the beginning you may get a bit surprised and do not know which tool is good for what purpose. 
