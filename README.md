@@ -12,10 +12,10 @@ A Microsoft SQL Server database specific toolbox collection with lots of potenti
     2. Read the header comments for each script.
     3. Do some minor adaptions, if you prefer. 
     4. Open up a new query and execute each file in sequential order.
-        i) 01_Body.sql
-        ii) 02_Skeleton.sql
-        iii) 03_Brain.sql
-        iv) 04_Gene.sql
+        - 01_Body.sql
+        - 02_Skeleton.sql
+        - 03_Brain.sql
+        - 04_Gene.sql
     5. Now you are (almost) ready to roll.
 
 ### Prerequisites
@@ -37,10 +37,10 @@ You need to have
     2. Read the header docx for each script.
     3. Do some minor adaptions, if you prefer. 
     4. Open up a new query and execute each file in sequential order.
-        i) 01_Body.sql
-        ii) 02_Skeleton.sql
-        iii) 03_Brain.sql
-        iv) 04_Gene.sql
+        - 01_Body.sql
+        - 02_Skeleton.sql
+        - 03_Brain.sql
+        - 04_Gene.sql
     5. Now you are (almost) ready to roll.
 
 ## (Almost) ready to roll ?!
@@ -60,9 +60,9 @@ DBAToolbox, for sure, may have some weak points, too, but so far the ones I disc
 
 The easy way to know what the DBAToolbox can do for you is to get your hands into the mud and play with the stored procedures. None of the stored procedures, as far as I can say, does anything harmful, as most of them are only data fetchers (collectors) and you can safely execute them against your own db server. As for other people's databases or production servers, please be aware: 
 
- Using these tools against production db servers REQUIRES you to understand what each one of these tools does in the first place to be aware of the consequences. This is to avoid putting productive servers under unneccessary load / pressure.
+Using these tools against production db servers REQUIRES you to understand what each one of these tools does in the first place to be aware of the consequences. This is to avoid putting productive servers under unneccessary load / pressure.
 
- And anyway, production environment is NOT there for you to play or experiment with. 
+And anyway, production environment is NOT there for you to play or experiment with. 
 
 Learn each tool and its usage and outcome, and when you know what it does, start to use each one for your daily tasks. I have tried my best to provide as much as possible documentation and helpful comments and so on. Check the Help for each SP, read the important remarks. Review the authors' comments. Open the SP for modification and look at the code. Review the messages which get printed out.
 
