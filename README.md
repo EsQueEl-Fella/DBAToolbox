@@ -1,5 +1,7 @@
 # DBAToolbox
 
+https://img.shields.io/badge/version/1.2/orange.svg
+
 A Microsoft SQL Server database specific toolbox collection with lots of potential.
 
 ## Getting Started
