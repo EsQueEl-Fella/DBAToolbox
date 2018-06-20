@@ -1,6 +1,10 @@
 # DBAToolbox
 
-https://img.shields.io/badge/version-1.2-orange.svg
+<p>
+    <img src="https://img.shields.io/badge/version-1.2-orange.svg" alt="">
+    <a href="LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt=""></a>
+    <img src="https://img.shields.io/badge/toolbox-MS SQL-green.svg" alt=""> 
+</p>
 
 A Microsoft SQL Server database specific toolbox collection with lots of potential.
 
