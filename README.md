@@ -117,7 +117,7 @@ Provided DB Backups is a one way path which is ---> From Me ---> To everyone who
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details. Some of the core queries may not be released under MIT license but other license types. This is mentioned in the source code for each tool.
 
-Some of the tools may require you to download the tool directly from the authors' sites. This is because authors wanted it this way (Like Adam Machanic's WhoIsAcrive). 
+Some of the tools may require you to download the tool directly from the authors' sites. This is because authors wanted it this way (Like Adam Machanic's WhoIsActive). 
 
 Thre are also some tools which I only ADD to the collection, but they may require you to get the latest version from the authors' sites before usage (Like Brent Ozar's First Responder Kit or Ola Hallengren's maintenance scripts)
 
